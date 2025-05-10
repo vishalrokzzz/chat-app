@@ -1,0 +1,31 @@
+# Node.js backend dependencies
+/backend/node_modules/
+
+# Frontend dependencies
+/frontend/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# IDE & editor files (VSCode)
+.vscode/
+
+# Build/Dist folder from frontend build tools
+/frontend/build/
+/frontend/dist/
+
+# Environment variables (optional, sensitive data like API keys)
+.env
+
+# Package-lock.json or yarn.lock (optional for some workflows)
+# If you want to track this file, remove the comment below
+# package-lock.json
+
+# Optional: Ignore front-end build configurations if you don't want them tracked
+frontend/.env
+frontend/.next/
